@@ -1,0 +1,43 @@
+.sidenav {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(156, 245, 138);
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+nav ul {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 19px;
+    display: block;
+}
+
+nav li {
+    list-style: none;
+    padding: 10px;
+    border-style: solid;
+    border-radius: 1px;
+    border-top: none;
+    border-left: none;
+    border-right:none;
+    border-bottom-color: grey;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+main {
+    margin-left: 210px;
+    padding: 20px;
+}
