@@ -89,6 +89,10 @@ code{
     
 }
 
+#Referenced {
+    padding-bottom: 10px;
+}
+
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
     #navbar ul {
