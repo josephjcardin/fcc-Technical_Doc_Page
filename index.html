@@ -62,11 +62,10 @@
             </a>
     </nav>
     <main id="main-doc">
-        <header>
-            <h1>Introduction To Python</h1>
-                <p>This site contains a brief introduction into Python. You do not need to know a single line of code or have tried to code before.  You can start your journey here.
-                </p>
-        </header>
+        <header>Introduction To Python</header>
+            <p>This site contains a brief introduction into Python. You do not need to know a single line of code or have tried to code before.  You can start your journey here.
+            </p>
+
         <section class="main-section" id="Python_Intro">
             <header>What is Python?</header>
             
@@ -103,16 +102,13 @@
                 To check if you have python installed on a Windows PC, search in the start bar for Python or run the following on the Command Line (cmd.exe):
                 </p>
                     
-                <pre>
-                    <code>C:\Users\Your Name>python --version</code>
-                </pre>
+                
+                <code>C:\Users\Your Name>python --version</code>
 
                 <p>To check if you have python installed on a Linux or Mac, then on linux open the command line or on Mac open the Terminal and type:
                 </p>
 
-                <pre>
                     <code>python --version</code>
-                </pre>
 
                 <p>If you find that you do not have python installed on your computer, then you can download it for free from the following website: 
                     <a href="https://www.python.org/">https://www.python.org/
@@ -127,9 +123,7 @@
                         The way to run a python file is like this on the command line:
                     </p>
                         
-                    <pre>
-                        <code>C:\Users\Your Name>python helloworld.py</code>
-                    </pre>
+                    <code>C:\Users\Your Name>python helloworld.py</code>
                         
                     <p>
                         Where "helloworld.py" is the name of your python file.
@@ -138,28 +132,19 @@
                         Let's write our first Python file, called helloworld.py, which can be done in any text editor.
                     </p>
                         
-                    <pre>
-                        <code>print("Hello, World!")</code>
-                    </pre>
+                    <code>print("Hello, World!")</code>
                     
                     <p>
                         Simple as that. Save your file. Open your command line, navigate to the directory where you saved your file, and run:
                     </p>
-                        
-                    <pre>
-                        <code>C:\Users\Your Name>python helloworld.py
-                        </code>
-                    </pre>
+
+                    <code>C:\Users\Your Name>python helloworld.py</code>
                     
                     <p>
                         The output should read:
                     </p>
-                        
-                    <pre>
-                        <code>
-                            Hello, World!
-                        </code>
-                    </pre>
+
+                    <code>Hello, World!</code>
                     
                     <p>
                         Congratulations, you have written and executed your first Python program.
@@ -172,18 +157,16 @@
                 <p>Indentation refers to the spaces at the beginning of a code line.</p>
                 <p>Where in other programming languages the indentation in code is for readability only, the indentation in Python is very important.</p>
                 <p>Python uses indentation to indicate a block of code.</p>
-                <pre>
-                    <code>if 5 > 2:
-                        print("Five is greater than two!")</code>
-                </pre>
+                
+                <code>if 5 > 2:
+    print("Five is greater than two!")</code>    
+                
                 <p>The number of spaces is up to you as a programmer, but it has to be at least one.</p>
-                <pre>
-                    <code>if 5 > 2:
-                        print("Five is greater than two!")  
-                        if 5 > 2:
-                                print("Five is greater than two!")
-                    </code>
-                </pre>
+                
+                <code>if 5 > 2:
+    print("Five is greater than two!")  
+if 5 > 2:
+    print("Five is greater than two!")</code>
                 <p>
                     You have to use the same number of spaces in the same block of code, otherwise Python will give you an error.
                 </p>
@@ -204,12 +187,10 @@
             <p>
                 Comments starts with a #, and Python will ignore them:
             </p>
-            <pre>
-                <code>
-                    #This is a comment
-                    print("Hello, World!")
-                </code>
-            </pre>
+
+            <code>#This is a comment
+print("Hello, World!")</code>
+                    
             <h3>Multi Line Comments</h3>
                 <p>
                     Python does not really have a syntax for multi line comments.
@@ -218,14 +199,10 @@
                     To add a multiline comment you could insert a # for each line:
                 </p>
                 
-                <pre>
-                    <code>
-                        #This is a comment
-                        #written in
-                        #more than just one line
-                        print("Hello, World!")
-                    </code>
-                </pre>
+                <code>#This is a comment
+#written in
+#more than just one line
+print("Hello, World!")</code>
         </section>
 
         <section class="main-section" id="Python_Variables">
@@ -240,34 +217,26 @@
                     <p>
                         A variable is created the moment you first assign a value to it.
                     </p>
-                    <pre>
-                        <code>
-                            x = 5
-                            y = "John"
-                            print(x)
-                            print(y)
-                        </code>
-                    </pre>
+                    <code>x = 5
+y = "John"
+print(x)
+print(y)</code>
+            
                     <p>
                         Variables do not need to be declared with any particular type and can even change type after they have been set.
                     </p>
-                    <pre>
-                        <code>
-                            x = 4 # x is of type int
-                            x = "Sally" # x is now of type str
-                            print(x)
-                        </code>
-                    </pre>
+                    
+                    <code>x = 4 # x is of type int
+x = "Sally" # x is now of type str
+print(x)</code>
+
                     <p>
                         String variables can be declared either by using single or double quotes:
                     </p>
-                    <pre>
-                        <code>
-                            x = "John"
-                            # is the same as
-                            x = 'John'
-                        </code>
-                    </pre>
+                    <code>x = "John"
+# is the same as
+x = 'John'</code>
+
                 <h3>Variable Names</h3>
                     <p>
                         A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). Rules for Python variables:
