@@ -74,6 +74,21 @@ body {
     font-size: 18px;
 }
 
+code{
+    display: block;
+    white-space: pre;
+    line-height: 3;
+    text-align: left;
+    padding: 15px;
+    margin: 10px;
+    word-break: normal;
+    word-wrap: normal;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgb(209, 209, 209);
+    
+}
+
 @media only screen and (max-width: 815px) {
   /* For mobile phones: */
     #navbar ul {
